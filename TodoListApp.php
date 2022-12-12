@@ -6,5 +6,8 @@ require_once("Controller/RemoveTodoList.php");
 require_once("View/ViewShowTodoList.php");
 require_once("View/ViewAddTodoList.php");
 require_once("View/ViewRemoveTodoList.php");
+require_once("Helper/Input.php");
 
 echo "Todo List Application" . PHP_EOL;
+
+viewShowTodoList();
